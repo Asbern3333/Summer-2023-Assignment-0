@@ -1,5 +1,12 @@
 function countOfAllNumbersSmallerThanTarget(nums, target) {
-  // Insert code here;
+  var y=0;
+  for(var i=0;i<nums.length;i++)
+  {
+      if(nums[i]<target)
+      y++;
+      
+  }
+  console.log(y);
 }
 
 // Do not edit this line;
