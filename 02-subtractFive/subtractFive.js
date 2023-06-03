@@ -1,5 +1,5 @@
-function f(name){
-let x =parseInt(name,10)-5;
-console.log(x);}
+function subtractFive(name){
+return name-5;
+}
 // Do not edit this line;
 module.exports = subtractFive;

@@ -1,18 +1,18 @@
-function f(arr)
+function countOfAllBooleans(arr)
 {
     var x=0;
     var i=0;
-    while(arr.length>=x)
-    {
-        
+    
+    while(arr.length>x)
+    { 
         if(arr[x]==false||arr[x]==true)
         {
-          i++  
+         if(!Number.isInteger(arr[x]))
+          i++;
         }
-        
         x++;
     }
-    console.log(i);
+    return i;
 }
-var ar=new Array("123","123"," sadsad",false,true,12432,10,2,3,5,1,34,123,1232142);
-f(ar);
+
+module.exports = countOfAllBooleans;
