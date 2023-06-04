@@ -5,9 +5,9 @@ function countOfAllBooleans(arr)
     
     while(arr.length>x)
     { 
-        if(arr[x]==false||arr[x]==true)
+        if(typeof arr[x] === 'boolean')
         {
-         if(!Number.isInteger(arr[x]))
+         
           i++;
         }
         x++;

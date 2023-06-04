@@ -7,7 +7,7 @@ function sumOfNumsWithinARange(nums, start, end) {
       
       }
   }
-  console.log(x1);
+  return x1;
 }
 
 // Do not edit this line;

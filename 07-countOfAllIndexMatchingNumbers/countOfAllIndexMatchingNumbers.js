@@ -5,7 +5,7 @@ function countOfAllIndexMatchingNumbers(nums) {
       if(i==nums[i])
       x1++;
   }
-  console.log(x1);
+  return x1;
 }
 
 

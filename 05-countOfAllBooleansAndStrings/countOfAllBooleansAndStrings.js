@@ -4,13 +4,13 @@ function countOfAllBooleansAndStrings(arr) {
     
     while(arr.length>x)
     { 
-        if(arr[x]==false||arr[x]==true)
+        if(typeof arr[x] === 'string'||typeof arr[x] === 'boolean')//||arr[x] instanceof String
         {
-         if(!Number.isInteger(arr[x]))
+         
           i++;
         }
-        else if (arr[x]=="true"||arr[x]=="false")
-        i++;
+        
+
         x++;
     }
     return i;

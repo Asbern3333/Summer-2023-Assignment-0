@@ -5,7 +5,7 @@ function sumOfAllOddNumbers(nums) {
       if(nums[i]%2==1)
       x1++;
   }
-  console.log(x1);
+  return(x1);
 }
 
 

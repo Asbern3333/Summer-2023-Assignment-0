@@ -5,7 +5,7 @@ function sumOfAllEvenNumbers(nums) {
       if(nums[i]%2==0)
       x1++;
   }
-  console.log(x1);
+  return x1;
 }
 
 // Do not edit this line;
